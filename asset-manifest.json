@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tastaur/show-app/static/css/main.7ad801fb.chunk.css",
+    "main.js": "/Tastaur/show-app/static/js/main.e34a7da0.chunk.js",
+    "main.js.map": "/Tastaur/show-app/static/js/main.e34a7da0.chunk.js.map",
+    "runtime-main.js": "/Tastaur/show-app/static/js/runtime-main.1b753789.js",
+    "runtime-main.js.map": "/Tastaur/show-app/static/js/runtime-main.1b753789.js.map",
+    "static/js/2.386c6bb1.chunk.js": "/Tastaur/show-app/static/js/2.386c6bb1.chunk.js",
+    "static/js/2.386c6bb1.chunk.js.map": "/Tastaur/show-app/static/js/2.386c6bb1.chunk.js.map",
+    "static/js/3.315722f8.chunk.js": "/Tastaur/show-app/static/js/3.315722f8.chunk.js",
+    "static/js/3.315722f8.chunk.js.map": "/Tastaur/show-app/static/js/3.315722f8.chunk.js.map",
+    "index.html": "/Tastaur/show-app/index.html",
+    "static/css/main.7ad801fb.chunk.css.map": "/Tastaur/show-app/static/css/main.7ad801fb.chunk.css.map",
+    "static/js/2.386c6bb1.chunk.js.LICENSE.txt": "/Tastaur/show-app/static/js/2.386c6bb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b753789.js",
+    "static/js/2.386c6bb1.chunk.js",
+    "static/css/main.7ad801fb.chunk.css",
+    "static/js/main.e34a7da0.chunk.js"
+  ]
+}
