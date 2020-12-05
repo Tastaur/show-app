@@ -1,0 +1,20 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.body {
+  tr:nth-child(odd) {
+    background: #e3f5ec;
+  }
+
+  td {
+    padding: 5px;
+  }
+}
+
+.empty {
+  background: #ffffd2;
+  text-align: center;
+  padding: 32px 0;
+}
