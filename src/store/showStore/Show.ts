@@ -1,4 +1,13 @@
-import {showExternals, showFromApi, showImage, showLinks, showNetwork, showRating, showSchedule} from "../../api/types";
+import {
+    showExternals,
+    showFromApi,
+    showImage,
+    showLinks,
+    showNetwork,
+    showRating,
+    showSchedule,
+    webChannel
+} from "../../api/types";
 import {action, computed, observable} from "mobx";
 
 export class Show {
@@ -7,7 +16,7 @@ export class Show {
     @observable name: string = ''
     @observable type: string = ''
     @observable language: string = ''
-    @observable genres: string[] = []
+    @observable genres: string[] | null = []
     @observable status: string = ''
     @observable runtime: number = 0
     @observable premiered: string = ''
@@ -18,7 +27,7 @@ export class Show {
         time: '',
     }
     @observable rating: showRating = {
-        average: 0
+        average: null,
     }
     @observable weight: number = 0
     @observable network: showNetwork = {
@@ -30,7 +39,8 @@ export class Show {
         id: 0,
         name: ''
     }
-    @observable webChannel: any = ''
+    @observable webChannel: webChannel | null = null
+
     @observable externals: showExternals = {
         imdb: '',
         thetvdb: 0,
@@ -53,7 +63,7 @@ export class Show {
     }
 
     @computed get genreToString(): string {
-        return this.genres.length > 0 ? this.genres.join(', ') : 'Without genres'
+        return (this.genres && this.genres.length > 0) ? this.genres.join(', ') : 'Without genres'
     }
 
     @computed get getCurrentRating(): string {

@@ -4,7 +4,7 @@ export interface showFromApi {
     name: string,
     type: string,
     language: string,
-    genres: string[],
+    genres: string[] | null,
     status: string,
     runtime: number,
     premiered: string,
@@ -14,8 +14,7 @@ export interface showFromApi {
     rating: showRating,
     weight: number,
     network: showNetwork,
-    //TODO fix after testing fetch result
-    webChannel: any,
+    webChannel: webChannel | null,
     externals: showExternals,
     image: showImage,
     summary: string,
@@ -30,7 +29,7 @@ export interface showSchedule {
 }
 
 export interface showRating {
-    average: number
+    average: number | null
 }
 
 export interface showNetwork{
@@ -64,4 +63,10 @@ export interface showLinks{
 
 export interface link {
     href: string
+}
+
+export interface webChannel {
+    country: string,
+    name: string,
+    id: number
 }

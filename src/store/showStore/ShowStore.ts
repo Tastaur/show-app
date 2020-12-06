@@ -20,7 +20,7 @@ export class ShowStore {
 
     getSortedShowList = computedFn((genre: string) => {
         if (genre !== '') {
-            return this.showsList.filter(item => item.genres.includes(genre))
+            return this.showsList.filter(item => item.genres?.includes(genre))
         } else {
             return this.showsList
         }
@@ -29,7 +29,7 @@ export class ShowStore {
 
     @computed get genreList(): string[] {
         const genre = new Set<string>()
-        this.showsList.forEach(item => item.genres.forEach(g => genre.add(g)))
+        this.showsList.forEach(item => item.genres?.forEach(g => genre.add(g)))
         return Array.from(genre.values())
     }
 
