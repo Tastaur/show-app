@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f68d818d-2217-4313-b8f4-a36027b4fec7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Table/Row/FullSizeImg/Index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Table/Row/FullSizeImg/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Table/Row/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SinglePage/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SinglePage/Layout/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SinglePage/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SinglePage/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Table/Row/Index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Table/Row/Index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Table/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Table/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/showStore/ShowStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/showStore/ShowStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +34,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
-        <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,8 +58,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/MainPage/Header" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/SinglePage/Layout" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,10 +69,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/SinglePage/Layout" />
+      <recent name="$PROJECT_DIR$/src/components/MainPage/Table/Row/FullSizeImg" />
+      <recent name="$PROJECT_DIR$/src/components/MainPage/Table/Row" />
       <recent name="$PROJECT_DIR$/src/components/MainPage/Header" />
       <recent name="$PROJECT_DIR$/src/components/HeaderRow" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/MainPage" />
       <recent name="$PROJECT_DIR$/src/components/Table" />
       <recent name="$PROJECT_DIR$/src" />
@@ -110,7 +133,8 @@
       <workItem from="1606933367126" duration="9012000" />
       <workItem from="1607020951379" duration="7782000" />
       <workItem from="1607182138585" duration="14576000" />
-      <workItem from="1607249303132" duration="2348000" />
+      <workItem from="1607249303132" duration="2688000" />
+      <workItem from="1607276118203" duration="8332000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1607210133377</created>
@@ -161,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607251471049</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" фикс деплой">
+      <created>1607251762012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607251762012</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" фикс деплой">
+      <created>1607251905982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607251905982</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

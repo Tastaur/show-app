@@ -39,7 +39,7 @@ const Header = ({setCurrentGenre, setSearchText, searchText, selectGenre}: IProp
                             onChange={searchHandler}/>
                     </div>
                     <div>
-                        <select defaultValue={selectGenre}
+                        <select
                                 className={classes.select}
                                 placeholder="Выберите категорию"
                                 value={selectGenre}

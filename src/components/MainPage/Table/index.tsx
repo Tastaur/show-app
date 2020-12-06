@@ -11,7 +11,6 @@ export interface IProps {
 }
 
 const Table = ({showList, searchText}: IProps) => {
-
     const emptyString = searchText ? `По запросу ${searchText} ничего не найдено` : 'Ничего не найдено'
 
     return (

@@ -13,6 +13,7 @@ export class ShowStore {
 
     @observable shows: Map<number, Show> = new Map()
     @observable isLoading: boolean = false
+    @observable isFinishLoading: boolean = false
 
     @computed get showsList(): Show[] {
         return Array.from(this.shows.values())
@@ -42,7 +43,8 @@ export class ShowStore {
         for (const show of shows) {
             this.setShowItem(show);
         }
-        this.isLoading = false;
+        this.isLoading = false
+        this.isFinishLoading = true
     }
 
     @action

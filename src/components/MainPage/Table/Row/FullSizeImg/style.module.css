@@ -1,0 +1,15 @@
+.imgWrapper{
+    position: fixed;
+    background-color: #0000004c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    top: 0;
+    cursor: zoom-out;
+}
+.imgWrapper img{
+    height: 95%;
+}
