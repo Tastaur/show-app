@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68d818d-2217-4313-b8f4-a36027b4fec7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="f68d818d-2217-4313-b8f4-a36027b4fec7" name="Default Changelist" comment="Чистка библиотеки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -86,6 +95,7 @@
       <list>
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +110,7 @@
       <workItem from="1606933367126" duration="9012000" />
       <workItem from="1607020951379" duration="7782000" />
       <workItem from="1607182138585" duration="14576000" />
-      <workItem from="1607249303132" duration="1273000" />
+      <workItem from="1607249303132" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1607210133377</created>
@@ -130,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607250168379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Чистка библиотеки">
+      <created>1607250813111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607250813111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Чистка библиотеки">
+      <created>1607251038576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607251038576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +164,8 @@
     <MESSAGE value="Первый коммит" />
     <MESSAGE value="Поправляем ссылку на репозиторий" />
     <MESSAGE value="Чистка кода" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чистка кода" />
+    <MESSAGE value="Чистка библиотеки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Чистка библиотеки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
