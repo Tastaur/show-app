@@ -5,7 +5,7 @@ import Preloader from "../Preloader";
 import Paginator from "./Pagination";
 import Table from "./Table";
 import Header from "./Header";
-import classes from './style.module.scss'
+import classes from './style.module.css'
 
 const MainPage = () => {
     const {showStore} = useStore()

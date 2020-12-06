@@ -2,7 +2,7 @@ import React from "react";
 import Row from "./Row/Index";
 import HeaderRow from "./HeaderRow/Index";
 import {Show} from "../../../store/showStore/Show";
-import classes from "./style.module.scss";
+import classes from "./style.module.css";
 
 
 export interface IProps {

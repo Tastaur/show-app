@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./style.module.scss";
 import {useStore} from "../../../../hooks/useStore";
 
 export interface IProps {
@@ -14,7 +13,7 @@ const Row = ({id}: IProps) => {
     }
     const {image, name, genreToString, runtime, getCurrentRating} = currentShow
     return (
-        <tr className={classes.row}>
+        <tr>
             <td><img src={image.medium} alt=""/></td>
             <td><h4>{name}</h4></td>
             <td><h4>{genreToString}</h4></td>

@@ -1,7 +1,7 @@
 import React from "react";
 import {observer} from "mobx-react";
 import {useStore} from "../../../hooks/useStore";
-import classes from './style.module.scss'
+import classes from './style.module.css'
 
 export interface IProps {
     setSearchText: (val: string) => void,

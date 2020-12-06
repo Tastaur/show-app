@@ -1,6 +1,6 @@
 import React from "react";
 import preloader from '../../static/25.gif'
-import classes from "./style.module.scss";
+import classes from "./style.module.css";
 
 const Preloader = () => {
     return <div className={classes.wrapper}>
