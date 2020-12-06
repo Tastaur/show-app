@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68d818d-2217-4313-b8f4-a36027b4fec7" name="Default Changelist" comment="Чистка библиотеки">
+    <list default="true" id="f68d818d-2217-4313-b8f4-a36027b4fec7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1606933367126" duration="9012000" />
       <workItem from="1607020951379" duration="7782000" />
       <workItem from="1607182138585" duration="14576000" />
-      <workItem from="1607249303132" duration="1894000" />
+      <workItem from="1607249303132" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит">
       <created>1607210133377</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607251038576</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" фикс деплой">
+      <created>1607251471049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607251471049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +172,8 @@
     <MESSAGE value="Поправляем ссылку на репозиторий" />
     <MESSAGE value="Чистка кода" />
     <MESSAGE value="Чистка библиотеки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чистка библиотеки" />
+    <MESSAGE value=" фикс деплой" />
+    <option name="LAST_COMMIT_MESSAGE" value=" фикс деплой" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
