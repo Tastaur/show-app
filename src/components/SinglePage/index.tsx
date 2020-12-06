@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {observer} from "mobx-react";
-import {Redirect, useParams} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 import {useStore} from "../../hooks/useStore";
 import Preloader from "../Preloader";
 import {SinglePageRouterParams} from "./types";
@@ -15,7 +15,7 @@ const SinglePage = () => {
         if (showStore.shows.size === 0) {
             showStore.getShows()
         }
-    },[])
+    }, [])
 
     if (!showStore.isFinishLoading) {
         return <Preloader/>

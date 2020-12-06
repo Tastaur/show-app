@@ -1,19 +1,20 @@
-.wrapper{
+.wrapper {
     max-height: 100vh;
     padding: 32px;
     text-align: center;
 }
-.wrapper img{
+
+.wrapper img {
     height: 50vh;
 }
 
-.wrapper button{
+.wrapper button {
     padding: 20px;
     outline: none;
     border-radius: 10px;
 }
+
 .wrapper a {
     text-decoration: none;
-    color: black
-;
+    color: black;
 }
